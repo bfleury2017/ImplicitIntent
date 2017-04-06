@@ -15,7 +15,7 @@ public class ImplicitIntentActivity extends AppCompatActivity {
     }
 
     public void showWebPage(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.nhti.edu"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.nhti.edu"));
         startActivity(intent);
     }
 }
